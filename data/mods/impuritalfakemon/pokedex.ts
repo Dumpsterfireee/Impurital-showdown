@@ -1,1 +1,26 @@
-
+export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
+	toxicadet: {
+		num: 44001,
+		name: "Toxicadet",
+		types: ["Poison"],
+		genderRatio: { M: 0.5, F: 0.5 },
+		baseStats: { hp: 40, atk: 50, def: 40, spa: 50, spd: 40, spe: 35 },
+		abilities: { 0: "Poison Point" },
+		heightm: 1,
+		weightkg: 30,
+		color: "Purple",
+		eggGroups: ["Human-Like"],
+	},
+		babblemist: {
+		num: 44002,
+		name: "Babblemist",
+		types: ["Fighting"],
+		genderRatio: { M: 0.5, F: 0.5 },
+		baseStats: { hp: 40, atk: 50, def: 40, spa: 50, spd: 40, spe: 35 },
+		abilities: { 0: "Poison Point" },
+		heightm: .9,
+		weightkg: 15,
+		color: "Gray",
+		eggGroups: ["Human-Like"],
+	},
+}
