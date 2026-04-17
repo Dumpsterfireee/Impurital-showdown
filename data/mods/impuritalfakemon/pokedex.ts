@@ -17,7 +17,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fighting"],
 		genderRatio: { M: 0.5, F: 0.5 },
 		baseStats: { hp: 40, atk: 50, def: 40, spa: 50, spd: 40, spe: 35 },
-		abilities: { 0: "Poison Point" },
+		abilities: { 0: "Power of Alchemy", H: "Full Metal Body" },
 		heightm: .9,
 		weightkg: 15,
 		color: "Gray",
